@@ -3,24 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio | Boyer Trevis</title>
+        <meta name="description" content="Portfolio de Boyer Trevis, étudiant en BTS SIO option SLAM.">
+        <title>Boyer Trevis | Portfolio BTS SIO</title>
         <link rel="stylesheet" href="stylep.css">
     </head>
     <body>
-        <header>
-            <h1>Portfolio BTS SIO</h1>
-            <h2>Boyer Trevis</h2>
+        <header class="site-header">
+            <a class="brand" href="index.html"><span class="brand-mark">BT</span><span>Boyer Trevis</span></a>
+            <nav aria-label="Navigation principale">
+                <a class="active" href="index.html">Accueil</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
 
         <main>
-            <section>
-                <h3>Présentation</h3>
-                <p>Bienvenue sur mon portfolio.<br>Vous y trouverez ma présentation, mon CV, mes compétences et les projets que j'ai réalisés.</p>
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero-copy">
+                    <p class="eyebrow">Étudiant · BTS SIO</p>
+                    <h1 id="hero-title">Je construis des solutions <em>utiles</em> et bien pensées.</h1>
+                    <p class="intro">Bienvenue dans mon espace professionnel. Je développe mes compétences en informatique, entre code, bases de données et résolution de problèmes.</p>
+                    <div class="actions"><a class="button button-primary" href="portfolio.html">Découvrir mes projets <span>↗</span></a><a class="button button-ghost" href="#parcours">Mon parcours</a></div>
+                </div>
+                <div class="hero-card" aria-label="Profil de Boyer Trevis">
+                    <div class="card-top"><span class="status-dot"></span> Disponible pour une alternance</div>
+                    <div class="monogram">BT<span>.</span></div>
+                    <p class="card-role">Développeur en devenir<br><strong>Option SLAM</strong></p>
+                    <div class="card-line"><span>Localisation</span><strong>France</strong></div><div class="card-line"><span>Promotion</span><strong>2024 — 2026</strong></div>
+                </div>
             </section>
+
+            <section class="section split-section" id="parcours" aria-labelledby="parcours-title"><div class="section-heading"><p class="eyebrow">01 / À propos</p><h2 id="parcours-title">Un profil curieux,<br><em>orienté solutions.</em></h2></div><div class="section-text"><p>Le BTS Services Informatiques aux Organisations m'apprend à transformer un besoin concret en réponse numérique fiable. J'aime comprendre comment les choses fonctionnent, puis les rendre plus simples à utiliser.</p><p>Ce portfolio rassemble mes apprentissages, mes projets et les outils que je découvre au fil de ma formation.</p><a class="text-link" href="portfolio.html">Voir l'ensemble du portfolio <span>→</span></a></div></section>
+
+            <section class="section skills-section" aria-labelledby="skills-title"><div class="section-heading"><p class="eyebrow">02 / Compétences</p><h2 id="skills-title">Mon terrain<br><em>de jeu.</em></h2></div><div class="skill-grid"><article class="skill"><span class="skill-number">01</span><h3>Développement</h3><p>HTML, CSS, JavaScript, PHP et conception d'interfaces responsive.</p></article><article class="skill"><span class="skill-number">02</span><h3>Données</h3><p>Modélisation, requêtes SQL et gestion de bases de données relationnelles.</p></article><article class="skill"><span class="skill-number">03</span><h3>Méthode</h3><p>Analyse du besoin, veille, documentation et travail en équipe.</p></article></div></section>
+
+            <section class="contact-band" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">03 / Parlons-en</p><h2 id="contact-title">Un projet, une question ?</h2></div><a class="button button-light" href="mailto:trevis.boyer@email.com">Me contacter <span>↗</span></a></section>
         </main>
 
-        <footer>
-            <p>&copy; Boyer Trevis</p>
-        </footer>
+        <footer><span>© 2026 Boyer Trevis</span><span>BTS SIO · Portfolio personnel</span></footer>
     </body>
 </html>

@@ -3,24 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
+        <meta name="description" content="Compétences et projets de Boyer Trevis, étudiant en BTS SIO.">
+        <title>Portfolio | Projets & compétences</title>
         <link rel="stylesheet" href="stylep.css">
     </head>
     <body>
-        <header>
-            <h1>Portfolio BTS SIO</h1>
-            <h2>Boyer Trevis</h2>
-            <nav>
-            </nav>
+        <header class="site-header">
+            <a class="brand" href="index.html"><span class="brand-mark">BT</span><span>Boyer Trevis</span></a>
+            <nav aria-label="Navigation principale"><a href="index.html">Accueil</a><a class="active" href="portfolio.html">Portfolio</a><a href="index.html#contact">Contact</a></nav>
         </header>
 
-        <section>
-            <h3>Présentation</h3>
-            <p>Bienvenue sur mon portfolio.<br>présentation de moi-même, mon CV, mes compétences et les projets que j'ai réalisés, .</p>
-        </section>
+        <main>
+            <section class="page-intro"><p class="eyebrow">Portfolio / 2026</p><h1>Ce que j'apprends,<br><em>ce que je construis.</em></h1><p class="intro">Une sélection de travaux et de compétences développés pendant mon BTS SIO, option SLAM.</p></section>
 
-        <footer>
+            <section class="projects" aria-labelledby="projects-title"><div class="section-heading inline-heading"><p class="eyebrow">01 / Réalisations</p><h2 id="projects-title">Projets en cours<br><em>et à venir.</em></h2></div><div class="project-grid">
+                <article class="project project-featured"><div class="project-visual visual-dashboard"><span class="visual-label">WEB APP</span><div class="mini-window"><div></div><div></div><div></div><i></i><i></i><i></i></div></div><div class="project-info"><span class="project-type">Projet 01 · Application web</span><h3>Tableau de bord<br>simple & efficace</h3><p>Une interface pensée pour visualiser des informations rapidement et accompagner la prise de décision.</p><div class="tags"><span>HTML / CSS</span><span>JavaScript</span></div></div></article>
+                <article class="project"><div class="project-visual visual-data"><span class="visual-label">DATA</span><div class="data-bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-info"><span class="project-type">Projet 02 · Base de données</span><h3>Structurer<br>l'information</h3><p>De la modélisation à la requête SQL, une approche claire pour organiser les données.</p><div class="tags"><span>SQL</span><span>Modélisation</span></div></div></article>
+                <article class="project"><div class="project-visual visual-network"><span class="visual-label">SYSTÈMES</span><div class="network-lines"><b></b><b></b><b></b><b></b></div></div><div class="project-info"><span class="project-type">Projet 03 · Veille</span><h3>Comprendre<br>les systèmes</h3><p>Une veille régulière sur les pratiques, outils et enjeux de l'informatique.</p><div class="tags"><span>Veille</span><span>Documentation</span></div></div></article>
+            </div></section>
 
-        </footer>
+            <section class="toolbox" aria-labelledby="toolbox-title"><div class="section-heading"><p class="eyebrow">02 / Boîte à outils</p><h2 id="toolbox-title">Les outils que<br><em>j'utilise.</em></h2></div><div class="tool-list"><div><span>01</span><strong>Front-end</strong><p>HTML · CSS · JavaScript</p></div><div><span>02</span><strong>Back-end</strong><p>PHP · SQL · APIs</p></div><div><span>03</span><strong>Workflow</strong><p>Git · VS Code · Figma</p></div></div></section>
+        </main>
+
+        <footer><span>© 2026 Boyer Trevis</span><span><a href="index.html">Retour à l'accueil ↑</a></span></footer>
     </body>
 </html>
